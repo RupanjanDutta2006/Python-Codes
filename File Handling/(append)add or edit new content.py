@@ -1,0 +1,12 @@
+#(append)WAP to add/edit new content within the previously created file or if the file is not created it will create a  new file
+x=input("Enter the File Name = ")
+r=open("D:/Python/Pranab Sir 1/File Handling/"+x,"a")
+a=input("Enter the Sentence = ")
+r.write(a)
+r.write("\n")
+a=input("Enter the 2nd Sentence = ")
+r.write(a)
+r.close()
+r=open("D:/Python/Pranab Sir 1/File Handling/"+x,"r")
+print(r.read())
+r.close()

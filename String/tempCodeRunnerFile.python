@@ -1,0 +1,2 @@
+x="rupa"
+print(x.isalpha())

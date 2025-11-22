@@ -1,0 +1,20 @@
+'''#WAP to implement len(),index,count()
+t1=('apple', 'banana', 'cherry',6,26,526.561)
+print(t1)
+print("Length of tuple:", len(t1))
+t1=tuple("rohit")
+print("New tuple:", t1)'''
+# len(), index(),count()
+t1=('pritha','nishant','epshita','tithi',10,55.6,(45,75))
+print(len(t1))
+t1=tuple("rohit")
+print(t1)
+'''li=[10,20,30,40,50]
+print(li.index(40))'''
+t2=('e','p','s','h','i','t','a',10,55,57.6,'tithi','p','r','i','t','h','a')
+print(t2.index('a'))
+print(t2.index('t'))
+print(t2.index('t',7))
+print(t2.index('t',7,16))
+print(t2.count('t'))
+print(t2.count('a'))

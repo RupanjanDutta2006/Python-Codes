@@ -1,0 +1,17 @@
+import time
+
+# Input email ID
+email = input("Enter the email ID: ").strip()
+
+# Check if email contains '@'
+if '@' in email:
+    # Extract server/domain part
+    server = email.split('@')[1]
+
+    # Get current system time
+    current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+
+    print("\n📨 Email Server:", server)
+    print("🕒 Time Sent (System Time):", current_time)
+else:
+    print("❌ Invalid email ID. '@' symbol missing.")

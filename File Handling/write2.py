@@ -1,0 +1,6 @@
+p=open("D:/Python/Pranab Sir 1/File Handling/Arisha.txt","w")
+p.write("Ayushi chiro single hoye morbe!!!!")
+p.close()
+p=open("D:/Python/Pranab Sir 1/File Handling/Arisha.txt","r")
+print(p.read())
+p.close()
